@@ -1,0 +1,10 @@
+Lesson 2
+
+Notes
+git init <creates a git repository in the current folder>
+git status <shows which files have changed since the last commit>
+git add file_name <add files to staging area>
+
+2/15
+git commit <run editor>
+git commit -m "Commit message" <specify the commit message>
