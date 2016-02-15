@@ -1,0 +1,22 @@
+Lesson 1 reflections
+Finding differences between codes is easier with "diff -u" command.
+Github is for saving previous versions of the file you are editing.
+The entire history of the file would show which was changed at which point in time leading to an easier detection of what went wrong.
+being able to choose when to save may sometimes result to failure to save in case of sudden program shutdown. 
+Version control systems may more specifically show the differences between each editing stage so finding bugs will be more efficient and easier.
+
+
+NOTES
+cd directory_name <to go to directory>
+git clone [URL] <clones a repository>
+git config —global color.ui auto
+git log <to find all the commits made. Go to directory first>>
+git diff first_id second_id
+
+git checkout <reset all files to time the commit was made>
+
+mv source_file_location_and_name new_name <moves file to current directory or renames file>
+
+git config —global core.editor “subl -n -w” <-n: new window, -w: will not open
+
+command+shift+H <go to home directory>
